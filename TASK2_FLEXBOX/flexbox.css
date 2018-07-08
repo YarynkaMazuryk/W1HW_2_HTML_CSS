@@ -1,0 +1,152 @@
+
+#wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    height: auto; 
+    padding: 20px;
+}
+.header_section, .main_section, .search, .footer {  
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_info {
+    display: flex;
+    justify-content:space-between;
+}
+
+.left_section,
+.right_section {
+    background: rgb(248, 187, 187);
+    width: 280px;
+    height: 200px;
+}
+
+.header_center {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main {
+    background:rgb(248, 187, 187);
+    width: 600px;
+    height: 150px;
+    margin: 0px;
+}
+
+.item {
+    background:rgb(248, 187, 187);
+    width: 193px;
+    height: 45px;
+    margin-top: 5px;
+
+}
+
+.nav_section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.nav {
+    background: rgb(228, 191, 233);
+    border: 1px solid black;
+    width: 239px;
+    height: 50px;
+
+}
+.search {
+    background: rgb(228, 191, 233);
+    border: 1px solid black;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.media_articles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.media_articles .item {
+    background: rgb(162, 167, 211);
+    width: 285px;
+    height: 165px;
+    margin: 0px;
+} 
+
+.other_articles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    height: 350px;
+}
+
+.left_box, .right_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.left_box div,.right_box div {
+    background: rgb(162, 167, 211);
+    width: 285px;
+    height: 165px;
+}
+
+.center_box {
+    background: rgb(162, 167, 211); 
+    height: 100%;
+    width: 590px;
+}
+.first_label {
+    vertical-align: super;
+}
+.second_label {
+    vertical-align: sub;
+}
+
+.input_search  {
+    width: 75%;
+    height: 50%;
+    margin: 15px;
+}
+.input_go {
+    height: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.footer div {
+    justify-content: center;
+    background: rgb(162, 167, 211); 
+    width: 285px;
+    height: 165px;
+}
+
+.footer :nth-child(2) {
+    width: 590px;
+}
+.mini_box  {
+    margin-top: 20px;
+    background: rgb(162, 167, 211); 
+    border: 1px solid gray;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+}
+
+

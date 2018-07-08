@@ -1,0 +1,23 @@
+.box {
+    position: absolute;
+    font-family:serif;
+    font-size: 100px;
+    text-align: center;
+    color: #f35626;
+    opacity: 1;
+    top: 200px; 
+    left: 400px;
+    width: 500px;
+    height: 100px;
+    -webkit-transition: color 0.5s opacity 0.5s -webkit-transform 0.5s;
+    transition: width color 0.5s  opacity 0.5s transform 0.5s;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.box:hover {
+    color: red;
+    opacity: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
